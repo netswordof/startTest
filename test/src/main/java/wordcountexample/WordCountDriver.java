@@ -32,7 +32,7 @@ public class WordCountDriver  {
         //FileOutputFormat.setOutputPath(job,new Path(PropertiesUtil.getProperties("wordcountOut")));
         //FileOutputFormat.setOutputPath(job,new Path("hdfs://hadoop107:9000/hadoop_data/wordcountOut"));
         FileOutputFormat.setOutputPath(job,new Path("hdfs://hadoop107:9000/hadoop_data/wordcountOut"));
-        boolean b = job.waitForCompletion(true);
-        System.out.println(b);
+        boolean c = job.waitForCompletion(true);
+        System.out.println(c);
     }
 }
